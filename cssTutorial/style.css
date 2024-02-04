@@ -194,19 +194,24 @@ ul a{
     margin: 10px;
     color: #dddddd;
 }
-.foot-panel3{
-    background-color: #222f3d;
-    color: white;
-    border-top: 0.5px solid white;
-    height: 60px;
-    
-}
+
 .footer-content {
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    height: 85px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 img {
-    height: 30px; /* Adjust the height according to your design */
+    height: 85px; /* Adjust the height according to your design */
+    width: 80px;
+
+    justify-content: left;
+}
+.m {
+    margin-right: 10px;
+    color: #cccccc;
+    font-weight: 700;
 }
